@@ -20,7 +20,7 @@ const calculation = (btnValue) =>{
 
 
 input.forEach((button) =>{
-    button.addEventListener("click", (e) => calculation(e.target.dataset.value));
+    button.addEventListener("click", (e) => calculation(e.target.value));
 });
 
 
